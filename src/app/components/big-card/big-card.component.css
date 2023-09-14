@@ -1,11 +1,4 @@
 .container__big-card{
-
-  margin-left: 20px;
-  margin-right: 20px;
-
-  width: 400px;
-  height: 500px;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -26,6 +19,11 @@
 }
 
 .big-card__photo > img{
+  display: block;
   width: 100%;
-  min-width: 400px;
+  max-width: 400px;
+}
+
+@media (max-width: 800px) {
+
 }
